@@ -1,0 +1,191 @@
+/*登录导航栏   和logo  欢迎登录  首页  +   帮助*/
+.header{
+    width:100%;
+    border-bottom: 1px solid #000000;
+    background-color: #ffffff;
+    position: relative;
+
+}
+.header .top-nav{
+    width: 1002px;
+    height: 60px;
+    line-height:60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e8e8e8;
+    margin-left: 300px;
+
+}
+.header .top-nav .logo{
+    float: left;
+    margin-top: 8px;
+}
+img {
+    border: 0 none;
+}
+.header .slogen {
+    float: left;
+    margin: 20px 0 0 10px;
+}
+img {
+    border: 0 none;
+}
+.header .gp{
+    float: left;
+    width: 1px;
+    height: 22px;
+    font-size: 0;
+    margin: 17px 10px 0;
+    background-color: #e8e8e8;
+}
+.header .top-nav .t1{
+    float: left;
+    font-size: 22px;
+    color: #333;
+}
+.header .top-nav .nlink {
+    float: right;
+    color: #000;
+
+}
+
+.header .top-nav .nlink.n2 a {
+    font-size:20px;
+    margin-left: 300px;
+    width: 200px;
+    height: 50px;
+
+}
+.header .top-nav .nlink a{
+    float:left;
+    height: 56px;
+}
+.header a{
+    text-decoration: none;
+}
+/*<!--登录主要部分整体-->*/
+.main{
+    position: absolute;
+    width: 476px;
+    height: 550px;
+    padding-bottom:20px;
+    margin-top: 50px;
+    margin-left: 35%;
+    border-radius: 2px;
+    background: #fff;
+}
+/*logo*/
+.pop_head {
+    height: 55px;
+    padding-top: 55px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.main-logo{
+    height: 100%;
+}
+/*登陆方式 change*/
+
+.clear{
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.item{
+    width: 350px;
+    margin: 20px auto;
+    position: relative;
+}
+.item input{
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    text-indent: 15px;
+    font-size: 14px;
+    line-height: 42px;
+
+}
+.getcode {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 26px;
+    color: #999;
+    line-height: 26px;
+    background: #eee;
+    border-radius: 2px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.msg {
+    text-align: center;
+    width: 350px;
+    margin-top: 10px;
+    position: relative;
+    top: 4px;
+}
+.msg span {
+    width: 330px;
+    text-align: left;
+    color: #ff552e;
+    font-size: 12px;
+    line-height: 12px;
+    position: relative;
+    padding-left: 20px;
+    float: left;
+}
+.clear {
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.forgetpwd a {
+    text-decoration: none;
+    color: #999;
+    font-size: 12px;
+    float: right;
+    position: relative;
+    top: -11px;
+}
+.item .btn {
+    width: 100%;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    background: #0d65ff;
+    color: rgba(255,255,255,.5);
+    cursor: pointer;
+    font-size: 17px;
+}
+.protocol {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: #999;
+}
+.protocol a {
+    color: #ff553e;
+    text-decoration: none;
+}
+.third a {
+    text-align: left;
+    float: left;
+    width: 28%;
+    font-size: 12px;
+    line-height: 32px;
+    color: #999;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.third a img {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin: 0 12px 0 0;
+    border: 0;
+}
+.third .wechat {
+    margin: 0 8%;
+}

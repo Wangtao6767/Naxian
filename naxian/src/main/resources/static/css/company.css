@@ -1,0 +1,392 @@
+
+.first-div{
+    margin-top: 10px;
+    background-color: darkorange;
+    height: 40px;
+}
+.first-div div,.second-div div {
+    color: #ffffff;
+    height: 40px;
+    border: none;
+}
+
+.top-text{
+    font-size: 24px;
+}
+
+/* 下拉按钮样式 */
+.dropbtn {
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    margin-left: 50px;
+
+
+}
+
+.dropbtn span{
+    text-align: center;
+    position: relative;
+    top:-6px;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 92px;
+    margin-left: 50px;
+
+
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    text-align: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background: #fff;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+    background-color: orange;
+}
+
+.col-md-2  p{
+    text-align: center;
+    line-height: 42px;
+    font-size: 20px;
+}
+
+.top-second .logo{
+    margin-left: 80px;
+}
+
+.top-second .first-text{
+   margin-left: 175px;
+}
+
+.top-second span{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.top-second span a{
+    text-decoration: none;
+}
+
+
+.top-second .top-down{
+    height: 1px;
+    background-color: #dcdcdc;
+    width: 100%;
+}
+
+.main{
+    width: 82%;
+    height:1280px ;
+    background-color: #ffffff;
+    margin-left: 110px;
+
+}
+
+
+.main .top-images{
+    height: 110px;
+    width: 60%;
+    background-image: url("../zhaoPinImages/company.jpg");
+    float: left;
+}
+
+.main .top-images-right{
+    height: 110px;
+    width: 40%;
+    float: right;
+}
+
+.main .top-images-right li{
+    list-style: none;
+    color: #636985;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+
+.main .top-images li{
+    float: right;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-right: 50px;
+    list-style: none;
+    color: #636985;
+    margin-left: -40px;
+    font-size: 20px;
+}
+
+
+.main .main-introduce  li{
+    float: left;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-right: 50px;
+    list-style: none;
+    color: #636985;
+    margin-left: -40px;
+    font-size: 20px;
+
+}
+
+.main .main-introduce  li a{
+    text-decoration: none;
+    color: #636985;;
+}
+
+
+.main .main-introduce  li a:hover{
+color: orange;
+}
+
+.main  .main-introduce span{
+    color: #636985;
+    font-size: 20px;
+
+}
+
+.main  .main-introduce .tips{
+    float: right;
+    margin-top: -40px;
+    margin-right: 178px;
+}
+
+.main  .main-introduce .tips span{
+    color: orange;
+    margin-top: 8px;
+}
+
+
+.main .main-line{
+    width: 100%;
+    height: 1px;
+    background-color: #636985 ;
+}
+
+.main .main-text{
+    color: #000000;
+    font-size: 20px;
+
+}
+
+.main .tlc .on{
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid  #c3c0c0;;
+    padding-top:12px ;
+    font-size: 16px;
+}
+
+
+.main .tlc .on span{
+    color:  #636985;;
+    font-size: 16px;
+    position: relative;
+    top: -3px;
+    left: 6px;
+}
+
+
+.main .tlc .on .title1{
+
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    color: orange;
+    font-size: 16px;
+
+}
+
+.main .tlc .on .title2{
+
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+}
+
+.main .tlc .on .title3{
+
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+}
+
+
+
+.main .main-height{
+       height: 25px;
+       width: 5px;
+       background-color: orange;
+       float: left;
+}
+
+.main .image{
+    height:7%;
+    width: 100%;
+    background-color: #ffffff;
+
+
+
+}
+
+.main .image img{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+.main-bottom{
+    height: 1px;
+    background-color: #dcdcdc;
+    width: 100%;
+}
+
+.bottom1{
+    height: 120px;
+    width: 20%;
+    background-color:  #ffffff;
+    float: left;
+}
+
+.bottom1 li{
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 108px;
+}
+
+.bottom1 p{
+    float: right;
+    margin-left: 0px;
+    margin-top: 8px;
+}
+
+.bottom2{
+    height: 120px;
+    width: 15%;
+    background-color: #ffffff;
+    float: left;
+
+}
+
+.bottom2 li{
+   list-style: none;
+   margin-top: 5px;
+   margin-left: 30px;
+}
+
+.bottom3{
+    height: 120px;
+    width: 15%;
+    background-color: #ffffff;
+    float: left;
+
+}
+
+.bottom3 li{
+    list-style: none;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.bottom4{
+    height: 120px;
+    width: 15%;
+    background-color: #ffffff;
+    float: left;
+
+}
+
+.bottom4 li{
+    list-style: none;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.bottom5{
+    height: 120px;
+    width: 15%;
+    background-color: #ffffff;
+    float: left;
+
+}
+
+.bottom5 li{
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.bottom6{
+    height: 120px;
+    width: 20%;
+    background-color:  #ffffff;
+    float: left;
+
+}
+
+.bottom6 img{
+    width: 100px;
+     height:100px;
+}
+
+.bottom6 p{
+    margin-left: 30px;
+}
+
+
+.script-address{padding: 50px;
+    line-height: 22px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.script-address ul{
+
+
+}
+
+.script-address  li{
+    float: left;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-right: 25px;
+    list-style: none;
+
+}

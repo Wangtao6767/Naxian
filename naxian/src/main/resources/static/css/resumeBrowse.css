@@ -1,0 +1,667 @@
+
+/*页面整体布局*/
+*{
+          padding: 0;
+          margin: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#a{
+          text-decoration: none;
+
+
+}
+.div{
+          display: block;
+}
+body {
+          line-height: 20px;
+          font-size: 14px;
+          height: 1775px;
+          background-color: #ffffff;
+}
+.header{
+          width: 100%;
+          height: 120px;
+}
+.content{
+          width: 75%;
+          height: 80%;
+          font-size: 12px;
+          margin: 35px auto 0;
+          /*background-color: #5bffcf;*/
+}
+.footer{
+          color: #999;
+          height: 10%;
+          padding: 20px 0;
+          border-top: 1px solid #e8e8e8;
+}
+
+
+/*头部导航布局*/
+
+.first-div{
+    margin-top: 10px;
+    background-color: darkorange;
+    height: 40px;
+}
+.first-div div,.second-div div {
+    color: #ffffff;
+    height: 40px;
+    border: none;
+}
+
+.top-text{
+    font-size: 24px;
+}
+
+/* 下拉按钮样式 */
+.dropbtn {
+    backgopxd-color: orange;
+    width:180px;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.dropbtn span{
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+.message {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    z-index: 5;
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    margin-left: 50px;
+
+
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    text-align: center;
+    color: black;
+    padding: 12px 7px;
+    text-decoration: none;
+    display: block;
+    background: #fff;
+    width: 180px;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    width: 180px;
+
+}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+    background-color: orange;
+}
+
+.col-md-2  p{
+    text-align: center;
+    line-height: 0px;
+    font-size: 20px;
+}
+
+
+.top-second .logo{
+    margin-left: 80px;
+}
+
+.top-second .first-text{
+    margin-left: 175px;
+}
+
+.top-second span{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.top-second .top-down{
+    height: 1px;
+    background-color: #dcdcdc;
+    width: 100%;
+}
+
+/*中间页面布局*/
+/*侧面导航*/
+.content .exlt{
+          float: left;
+          width: 140px;
+          overflow: hidden;
+          background-color: #fafafa;
+          border-left: 1px solid #eee;
+          border-bottom: 1px solid #eee;
+
+
+}
+.content .exlt  a{
+          position: relative;
+          display: block;
+          height: 42px;
+          line-height: 42px;
+          font-weight: bold;
+          color: #333;
+          padding: 0 15px;
+          border: 1px solid transparent;
+          border-right-color: #eee;
+          border-left-width: 2px;
+}
+.content .exlt a:first-child{
+          border-top: 1px solid #eee;
+}
+.content .exlt a.on{
+          font-weight: bold;
+          color: #ff6000;
+          background-color: #fff;
+          border: 1px solid #eee;
+          border-right-color: #fff;
+          border-left: 2px solid #ff6000;
+}
+.content .exlt a span{
+          display: block;
+          height: 43px;
+          cursor: pointer;
+
+          border-bottom: 1px solid #eee;
+}
+/*右侧部分*/
+.exrt {
+          float: right;
+          width: 862px;
+          #overflow: hidden;
+          background-color: #fff;
+}
+.mt {
+          height: 44px;
+          line-height: 44px;
+          color: #999;
+          margin-bottom: 15px;
+          border-bottom: 2px solid #efefef;
+}
+.mt .mt_l {
+          float: left;
+          font-size: 18px;
+}
+.mt .mt_l .on {
+          color: #333;
+          border-bottom: 2px solid #ff6000;
+          padding: 0px 12px;
+
+}
+.mt .mt_r {
+          float: right;
+          font-size: 12px;
+}
+
+.mt .mt_r li {
+          float: left;
+          height: 45px;
+          padding-left: 15px;
+          position: relative;
+}
+.c_orange {
+          color: #ff6000 !important;
+}
+.hpBox {
+          position: relative;
+          font-size: 12px;
+          line-height: 20px;
+}
+.hpBox .h_head {
+          position: relative;
+          height: 30px;
+}
+.mt .mt_r .vsm {
+          background-position: 0 -50px;
+}
+.mt .mt_r .add, .mt .mt_r .vsm, .mt .mt_r .vfw {
+          display: block;
+          height: 20px;
+          line-height: 20px;
+          margin-top: 12px;
+          padding-left: 25px;
+          background: url(//img01.51jobcdn.com/im/2017/my/icon_mt.png) 0 -30px no-repeat;
+}
+.a:link, .a:active, .a:visited {
+          color: #00457d;
+}
+.hpBox .h_body {
+          position: absolute;
+          display: none;
+          width: 458px;
+          line-height: 20px;
+          top: 26px;
+          *top: 38px;
+          right: -4px;
+          z-index: 5;
+}
+.lmsg {
+          position: relative;
+          margin-bottom: 40px;
+}
+.lmsg .t_rt {
+          position: absolute;
+          top: 0;
+          right: 0;
+}
+.clearfix {
+          *zoom: 1;
+}
+.lmsg .t_rt .c {
+          float: left;
+          margin-left: 10px;
+}
+.lmsg .t_rt .btn {
+          width: auto;
+          line-height: 35px;
+          margin: 0;
+          padding: 0 15px;
+}
+.btn_y {
+          color: #ff6000;
+          margin: 10px 0 20px;
+          background-color: #fff2e3;
+          border: 1px solid #ffb865;
+}
+
+.btn {
+          line-height: 30px;
+          text-align: center;
+          cursor: pointer;
+          border-radius: 2px;
+          float: left;
+          width: 100%;
+          color: #333;
+          background-color: #fff;
+}
+.lmsg .tit {
+          margin: 15px 0;
+          padding: 6px 0;
+}
+.lmsg .tit .txt {
+          line-height: 18px;
+          font-size: 18px;
+          color: #333;
+          padding-left: 10px;
+          border-left: 2px solid #ff6000;
+}
+.lmsg .e {
+          margin-top: 10px;
+          border: 1px solid #eee;
+}
+.lmsg .e .h {
+          height: 30px;
+          line-height: 30px;
+          font-size: 12px;
+          color: #666;
+          padding: 0 20px;
+          background-color: #fafafa;
+}
+.lmsg .e .h.qy em {
+          background-color: #56b1e6;
+}
+.lmsg .e .h em {
+          float: left;
+          width: 55px;
+          height: 18px;
+          line-height: 18px;
+          *line-height: 19px;
+          font-size: 12px;
+          font-style: normal;
+          color: #fff;
+          text-indent: 3px;
+          margin: 6px 0;
+          background-color: #ff9f20;
+          border-radius: 2px;
+}
+.lmsg .e .h .cname {
+          max-width: 108px;
+}
+.lmsg .e .h span, .lmsg .e .h a, .lmsg .e .l1 span {
+          float: left;
+          margin-left: 10px;
+}
+.lmsg .e .txt {
+          height: 100px;
+          padding: 15px 10px;
+}
+.lmsg .e .l1 {
+          position: relative;
+          width: 390px;
+          float: left;
+          line-height: 30px;
+}
+.lmsg .e .l1 p {
+          height: 30px;
+          color: #999;
+}
+p {
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+}
+.lmsg .e .l1 a, .lmsg .e .l1 .c_disable {
+          float: left;
+          max-width: 288px;
+          font-size: 16px;
+          color: #333;
+          margin-left: 10px;
+}
+.lmsg .e .l1 .cy {
+          max-width: 112px;
+}
+.lmsg .e .l1 span {
+          float: left;
+          margin-left: 10px;
+}
+.lmsg .e .l1 .num {
+          max-width: 95px;
+}
+.lmsg .e .l2 {
+          position: relative;
+          width: 130px;
+          padding-left: 30px;
+}
+.c_666 {
+          color: #666 !important;
+}
+.hpBox {
+          position: relative;
+          font-size: 12px;
+          line-height: 35px;
+}
+.hpBox .h_head {
+          position: relative;
+          height: 30px;
+}
+.lmsg .e .l2 .like {
+          float: left;
+          width: 104px;
+          height: 20px;
+          margin-top: 5px;
+}
+.lmsg .e .l2 .like, .lmsg .e .l2 .like span {
+          background: url(//img01.51jobcdn.com/im/2017/my/icon_heart.png) 0 3px;
+}
+.lmsg .e .l2 .h4 span {
+          width: 82px;
+}
+.lmsg .e .l2 .like span {
+          display: inline-block;
+          height: 20px;
+          background-position: 0 -17px;
+}
+.lmsg .e .l2 .h4 .h_arr {
+          left: 67px;
+          bottom: -2px;
+}
+.hpBox.h_orange .h_arr {
+          bottom: 1px;
+          background: url(//img01.51jobcdn.com/im/2017/my/icon_apox_o.png) 0 -24px no-repeat;
+}
+.lmsg .e .l2 .h_body {
+          width: 250px;
+          color: #666;
+          right: -30px;
+          top: 29px;
+          padding: 10px;
+          background-color: #fff;
+}
+.hpBox.h_orange .h_body {
+          border: 1px solid #ff9f20;
+}
+.hpBox .h_body {
+          position: absolute;
+          display: none;
+          width: 458px;
+          line-height: 20px;
+          top: 26px;
+          right: -4px;
+          z-index: 5;
+}
+.lmsg .e .l3 {
+          width: 250px;
+          text-align: center;
+}
+.p_but {
+          display: inline-block;
+          min-width: 80px;
+          height: 28px;
+          line-height: 28px;
+          font-size: 14px;
+          font-family: "Microsoft YaHei";
+          color: #fff;
+          text-align: center;
+          cursor: pointer;
+          margin: 0 10px;
+          background-color: #ff6000;
+          border: 1px solid #ff6000;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          -ms-border-radius: 2px;
+          border-radius: 2px;
+}
+.lmsg .e .li {
+          float: left;
+          line-height: 30px;
+}
+.lmsg .t_rt .btn {
+          color: #ff6000;
+
+          background-color: #fff2e3;
+          border: 1px solid #ffb865;
+}
+.btn-default {
+          text-shadow: 0 1px 0 #fff;
+}
+.btn {
+          display: inline-block;
+          padding: 0 5px;
+          margin-bottom: 0;
+          font-size: 12px;
+          font-weight: normal;
+          line-height: 1.428571;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+
+          cursor: pointer;
+
+          background-image: none;
+          border: 0 solid transparent;
+          border-radius: 4px;
+}
+.btn-default {
+          color: #333;
+          margin: 12px auto;
+          background-color: #fff;
+          border-color: #ccc;
+}
+.btn-default:active:hover{
+          color: rgb(253, 253, 255);
+          background-color: #ff6000;
+          border-color: #ff6000;
+
+}
+.btn-default:hover{
+          color: rgb(253, 253, 255);
+          background-color: #ff6000;
+          border-color: #ff6000;
+}
+.btn-default:focus{
+          color: rgb(253, 253, 255);
+          background-color: #ff6000;
+          border-color: #ff6000;
+}
+.popover {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1000;
+          display: none;
+          max-width: 600px;
+          float: left;
+          padding: 1px 100px 100px 1px;
+          margin-right: 100px;
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: normal;
+          line-height: 1.42857143;
+          text-align: left;
+          text-align: start;
+          text-decoration: none;
+          text-shadow: none;
+          text-transform: none;
+          letter-spacing: normal;
+          word-break: normal;
+          word-spacing: normal;
+          word-wrap: normal;
+          white-space: normal;
+          background-color: #fff;
+          -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+          border: 1px solid #ccc;
+          border: 1px solid rgba(0, 0, 0, .2);
+          border-radius: 6px;
+          -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+          line-break: auto;
+}
+
+
+
+/*底层导航====================================*/
+
+.footer{
+          width: 100%;
+
+
+}
+.bottom{
+          width: 85%;
+          margin: 0 auto;
+
+}
+.bottom1{
+          height: 120px;
+          width: 20%;
+          background-color:  #ffffff;
+          float: left;
+}
+
+.bottom1 li{
+          list-style: none;
+          margin-top: 5px;
+          margin-left: 108px;
+}
+
+.bottom1 p{
+          float: right;
+          margin-left: 0px;
+          margin-top: 8px;
+}
+
+.bottom2{
+          height: 120px;
+          width: 15%;
+          background-color: #ffffff;
+          float: left;
+
+}
+
+.bottom2 li{
+          list-style: none;
+          margin-top: 5px;
+          margin-left: 30px;
+}
+
+.bottom3{
+          height: 120px;
+          width: 15%;
+          background-color: #ffffff;
+          float: left;
+
+}
+
+.bottom3 li{
+          list-style: none;
+          margin-top: 8px;
+          margin-left: 30px;
+}
+
+.bottom4{
+          height: 120px;
+          width: 15%;
+          background-color: #ffffff;
+          float: left;
+
+}
+
+.bottom4 li{
+          list-style: none;
+          margin-top: 8px;
+          margin-left: 30px;
+}
+
+.bottom5{
+          height: 120px;
+          width: 15%;
+          background-color: #ffffff;
+          float: left;
+
+}
+
+.bottom5 li{
+          list-style: none;
+          margin-top: 5px;
+          margin-left: 30px;
+}
+
+.bottom6{
+          height: 120px;
+          width: 20%;
+          background-color:  #ffffff;
+          float: left;
+
+}
+
+.bottom6 img{
+          width: 100px;
+          height:100px;
+}
+
+.bottom6 p{
+          margin-left: 30px;
+}

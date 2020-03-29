@@ -1,0 +1,442 @@
+/*页面整体布局*/
+*{
+          padding: 0;
+          margin: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#a{
+          text-decoration: none;
+
+
+}
+.div{
+          display: block;
+}
+body {
+          position: relative;
+          line-height: 30px;
+          font-size: 14px;
+          height: 1775px;
+          background-color: #ffffff;
+}
+.header{
+          width: 100%;
+          height: 120px;
+}
+.content{
+          width: 75%;
+          height: 80%;
+          font-size: 12px;
+          margin: 35px auto 0;
+          /*background-color: #5bffcf;*/
+}
+.footer{
+          color: #999;
+          height: 10%;
+          padding: 20px 0;
+          border-top: 1px solid #e8e8e8;
+}
+
+
+/*头部导航布局*/
+
+.first-div{
+    margin-top: 10px;
+    background-color: darkorange;
+    height: 40px;
+}
+.first-div div,.second-div div {
+    color: #ffffff;
+    height: 40px;
+    border: none;
+}
+
+.top-text{
+    font-size: 24px;
+}
+
+/* 下拉按钮样式 */
+.dropbtn {
+    backgopxd-color: orange;
+    width:180px;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.dropbtn span{
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+.message {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    z-index: 5;
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    margin-left: 50px;
+
+
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    text-align: center;
+    color: black;
+    padding: 7px 7px;
+    text-decoration: none;
+    display: block;
+    background: #fff;
+    width: 180px;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    width: 180px;
+
+}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+    background-color: orange;
+}
+
+.col-md-2  p{
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+
+.top-second .logo{
+    margin-left: 80px;
+}
+
+.top-second .first-text{
+    margin-left: 175px;
+}
+
+.top-second span{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.top-second .top-down{
+    height: 1px;
+    background-color: #dcdcdc;
+    width: 100%;
+}
+/*中间页面布局*/
+/*侧面导航*/
+.content .exlt{
+          float: left;
+          width: 140px;
+          overflow: hidden;
+          background-color: #fafafa;
+          border-left: 1px solid #eee;
+          border-bottom: 1px solid #eee;
+}
+.content .exlt  a{
+          text-decoration: none;
+          position: relative;
+          display: block;
+          height: 42px;
+          line-height: 42px;
+          font-weight: bold;
+          color: #333;
+          padding: 0 15px;
+          border: 1px solid transparent;
+          border-right-color: #eee;
+          border-left-width: 2px;
+}
+.content .exlt a:first-child{
+          border-top: 1px solid #eee;
+}
+.content .exlt a.on{
+          font-weight: bold;
+          color: #ff6000;
+          background-color: #fff;
+          border: 1px solid #eee;
+          border-right-color: #fff;
+          border-left: 2px solid #ff6000;
+}
+.exrt {
+          float: right;
+          width: 862px;
+          #overflow: hidden;
+          background-color: #fff;
+}
+.exrt .a {
+          font-size: 12px;
+}
+.content .exlt a span{
+          display: block;
+          height: 43px;
+          cursor: pointer;
+
+          border-bottom: 2px solid #efefef;
+}
+/*右侧导航*/
+.mt {
+          height: 44px;
+          line-height: 44px;
+          color: #999;
+          margin-bottom: 15px;
+          border-bottom: 2px solid #efefef;
+}
+.mt .mt_l {
+          float: left;
+          font-size: 18px;
+}
+.mt .mt_l .on {
+          color: #333;
+          border-bottom: 2px solid #ff6000;
+}
+.mt .mt_l li, .mt .mt_l a {
+          font-size: 18px;
+          color: #999;
+}
+.mt .mt_l li {
+          float: left;
+          padding: 0 15px;
+}
+.mt .mt_r {
+          float: right;
+          font-size: 12px;
+}
+.mt .mt_r li {
+          position: relative;
+          float: left;
+          height: 45px;
+          padding-left: 15px;
+}
+.c_orange {
+          color: #ff6000 !important;
+}
+.hpBox {
+          position: relative;
+          font-size: 12px;
+          line-height: 20px;
+}
+.hpBox .h_head {
+          position: relative;
+          height: 30px;
+}
+.mt .mt_r .vsm {
+          background-position: 0 -50px;
+}
+.mt .mt_r .add, .mt .mt_r .vsm, .mt .mt_r .vfw {
+          display: block;
+          height: 20px;
+          line-height: 20px;
+          margin-top: 12px;
+          padding-left: 25px;
+          background: url(//img01.51jobcdn.com/im/2017/my/icon_mt.png) 0 -30px no-repeat;
+}
+.hpBox .h_arr {
+          position: absolute;
+          display: none;
+          width: 21px;
+          height: 10px;
+          bottom: 0;
+          *bottom: -12px;
+          left: 38px;
+          vertical-align: middle;
+          background: url(//img01.51jobcdn.com/im/2016/form/hp_arr.png) no-repeat;
+}
+.lmsg {
+          position: relative;
+          margin-bottom: 20px;
+}
+.lmsg .record {
+          height: 54px;
+          margin: 15px 0;
+          padding: 20px 0;
+}
+.lmsg .record .lf {
+          float: left;
+          width: 131px;
+          text-align: center;
+          padding: 5px 0;
+          border-right: 1px solid #ddd;
+}
+.c_999 {
+          color: #999 !important;
+}
+.lmsg .record .rt {
+          float: left;
+          width: 560px;
+          height: 54px;
+}
+.lmsg .record .rt li {
+          float: left;
+          width: 140px;
+          font-size: 12px;
+          color: #666;
+          text-align: center;
+}
+.siti {
+          height: 24px;
+          line-height: 24px;
+          font-size: 26px;
+          color: #ff6000;
+          margin-bottom: 10px;
+}
+.lmsg .record .btn_y {
+          float: right;
+          margin-top: -20px;
+          margin-bottom: 0;
+}
+.btn_y {
+          color: #ff6000;
+          margin: 10px 0 20px;
+          background-color: #fff2e3;
+          border: 1px solid #ffb865;
+}
+.btn {
+          width: 90px;
+          line-height: 30px;
+          text-align: center;
+          cursor: pointer;
+          border-radius: 2px;
+}
+.lmsg .tit {
+          margin: 0 0;
+          padding: 20px 0;
+}
+.lmsg .tit .txt {
+          line-height: 18px;
+          font-size: 18px;
+          color: #333;
+          padding-left: 10px;
+          border-left: 2px solid #ff6000;
+}
+
+
+/*底层导航====================================*/
+
+.footer{
+          width: 100%;
+
+
+}
+.bottom{
+          width: 85%;
+          margin: 0 auto;
+
+}
+.bottom1{
+          height: 120px;
+          width: 20%;
+          background-color:  #ffffff;
+          float: left;
+}
+
+.bottom1 li{
+          list-style: none;
+          margin-top: 5px;
+          margin-left: 108px;
+}
+
+.bottom1 p{
+          float: right;
+          margin-left: 0px;
+          margin-top: 8px;
+}
+
+.bottom2{
+          height: 120px;
+          width: 15%;
+          background-color: #ffffff;
+          float: left;
+
+}
+
+.bottom2 li{
+          list-style: none;
+          margin-top: 5px;
+          margin-left: 30px;
+}
+
+.bottom3{
+          height: 120px;
+          width: 15%;
+          background-color: #ffffff;
+          float: left;
+
+}
+
+.bottom3 li{
+          list-style: none;
+          margin-top: 8px;
+          margin-left: 30px;
+}
+
+.bottom4{
+          height: 120px;
+          width: 15%;
+          background-color: #ffffff;
+          float: left;
+
+}
+
+.bottom4 li{
+          list-style: none;
+          margin-top: 8px;
+          margin-left: 30px;
+}
+
+.bottom5{
+          height: 120px;
+          width: 15%;
+          background-color: #ffffff;
+          float: left;
+
+}
+
+.bottom5 li{
+          list-style: none;
+          margin-top: 5px;
+          margin-left: 30px;
+}
+
+.bottom6{
+          height: 120px;
+          width: 20%;
+          background-color:  #ffffff;
+          float: left;
+
+}
+
+.bottom6 img{
+          width: 100px;
+          height:100px;
+}
+
+.bottom6 p{
+          margin-left: 30px;
+}

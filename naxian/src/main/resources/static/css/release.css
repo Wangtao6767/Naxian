@@ -1,0 +1,465 @@
+/*导航部分*/
+.topbar_cont {
+    width: 100%;
+    height: 64px;
+    background-color:#7ff395;
+}
+.topbar{
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    max-width: 1190px;
+    margin: 0 auto;
+    position: relative;
+    color: #555;
+}
+div {
+    display: block;
+}
+.topbar .left {
+    float: left;
+    font-size: 20px;
+
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+.left .logo_cont {
+    position: absolute;
+    font-size: 14px;
+    width: 200px;
+    height: 64px;
+}
+.left .logo_cont .logo {
+    position: absolute;
+    top: 14px;
+    left: 40px;
+    width: 120px;
+    height: 36px;
+    background-size: 100%;
+    background-position: -5px -5px;
+    background-image: url(../zhaoPinImages/logo.jpg);
+}
+.left .logo_cont .logo:before {
+    content: "";
+    width: 1px;
+    height: 36px;
+    position: absolute;
+    right: -18px;
+    background-color: #979797;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
+.left .pagename {
+    padding-left: 194px;
+
+
+}
+.topbar .left {
+
+    font-size: 20px;
+}
+.topbar {
+    line-height:64px;
+
+    color: #555;
+}
+.topbar .right {
+    float: right;
+    position: relative;
+}
+.backtohome {
+    padding-right:200px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.backtohome a {
+    color: #555;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*<!--主要填写招聘信息模块-->*/
+.container {
+    background-color: #a6e1ec;
+    width: 1190px;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    height:30px;
+}
+.processbar {
+    padding: 25px 28px;
+    line-height: 36px;
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color:orangered ;
+
+}
+ .circular {
+    position: relative;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.circular .numdot_cotent.enterprise {
+    top: -4px;
+}
+.circular .numdot_cotent {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ff704f;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+.processbar .numdot_cotent:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff704f;
+    top: 2px;
+    left: 2px;
+    position: absolute;
+    z-index: 0;
+}
+.numdot_cotent span {
+    position: absolute;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+.processbar .process_text {
+    padding: 0 8px 0 48px;
+}
+.processbar .dotline {
+    position: relative;
+}
+.dotline .line {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 200px;
+    border-top: 1px dotted #ff704f;
+}
+.dotline .line:after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #ff704f;
+    top: -5px;
+    right: -5px;
+}
+.assintspan {
+    padding-left: 450px;
+    float: inherit;
+}
+.processbar .circular {
+    position: relative;
+}
+.active-false.circular .numdot_cotent {
+    border: 1px solid #c7cdd3;
+}
+.circular .numdot_cotent {
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    left: 0;
+}
+.numdot_cotent span {
+    position: absolute;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    width: 100%;
+
+}
+.dotline.active-false .line {
+    border-top: 1px dotted #c7cdd3;
+}
+.dotline .line {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 170px;
+    border-top: 1px dotted #ff704f;
+
+}
+/*职位信息详情展示栏*/
+.brick {
+    padding: 10px 0;
+    margin: 10px auto;
+    background-color: beige;
+    height: 720px;
+}
+.section {
+    line-height: 36px;
+    color: #666;
+    font-size: 14px;
+    position: relative;
+
+}
+.ant-row {
+    height: auto;
+    zoom: 1;
+    display: block;
+}
+.ant-row:before, .ant-row:after {
+    content: " ";
+    display: table;
+}
+.ant-col-offset-1 {
+    margin-left: 4.16666667%;
+}
+.ant-col-23 {
+    display: block;
+    width: 95.83333333%;
+}
+.ant-col-23{
+float: left;
+-ms-flex: 0 0 auto;
+flex: 0 0 auto;
+}
+/*职位信息标题*/
+.title {
+    font-size: 20px;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+/*职位名称*/
+.section {
+    line-height: 36px;
+    margin: 16px auto;
+    color: #666;
+    font-size: 14px;
+    position: relative;
+}
+.ant-row {
+    height: auto;
+    zoom: 1;
+    display: block;
+}
+.ant-row:before, .ant-row:after {
+    content: " ";
+    display: table;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
+.ant-col-offset-2 {
+    margin-left: 8.33333333%;
+}
+.ant-col-2 {
+    display: block;
+    width: 8.33333333%;
+    float: left;
+    flex: 0 auto;
+}
+.title-input {
+    font-size: 14px;
+}
+.title, .title-input {
+    font-family: PingFangSC-Regular;
+    color: #111;
+
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.ant-col-20 {
+    display: block;
+    width: 83.33333333%;
+    margin-top: -20px;
+}
+input[type="text"] {
+    -webkit-appearance: none;
+    height: 36px;
+}
+.ant-input {
+    position: relative;
+    display: inline-block;
+    padding: 4px 7px;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+   transition: all .3s;
+}
+.ant-input {
+    border-radius: 0!important;
+    border: 1px solid #c7cdd3!important;
+    height: 36px!important;
+    font-size: 14px!important;
+    color: #555!important;
+}
+element.style {
+    color: rgb(255, 85, 46);
+}
+.input-tips i {
+    margin-right: 4px;
+}
+.anticon {
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    text-align: center;
+    text-transform: none;
+    line-height: 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
+}
+.anticon-exclamation-circle:before {
+    content: "\E62C";
+}
+.anticon:before {
+    display: block;
+    font-family: "anticon" !important;
+}
+element.style {
+    color: rgb(255, 85, 46);
+}
+/*职位福利*/
+.ant-col-offset-2 {
+    margin-left: 8.33333333%;
+    margin-top:10px ;
+
+}
+.ant-col-2 {
+    display: block;
+    width: 8.33333333%;
+}
+.ant-col-20 {
+    display: block;
+    width: 83.33333333%;
+    float: left;
+    flex: 0 0 auto;
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 5px;
+}
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+.ant-btn {
+    border-radius: 0!important;
+    height: 36px!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+}
+.radio-classes-2 {
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.ant-btn {
+    display: inline-block;
+    text-align: center;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 1.15;
+    padding: 0 15px;
+
+    user-select: none;
+
+
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    position: relative;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+}
+/*职位概述*/
+#content {
+    height: 200px!important;
+
+}
+textarea.ant-input {
+    max-width: 100%;
+    vertical-align: bottom;
+    transition: all .3s, height 0s;
+
+}
+.ant-input{
+    position: relative;
+    display: inline-block;
+    padding: 4px 7px;
+
+}
+element.style {
+    width: 500px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    opacity: 0.99;
+    line-height: 30px;
+    height: 200px;
+    resize: none;
+
+}
+.brick1{
+    padding: 10px 0;
+    margin: 10px auto;
+    background-color: beige;
+    height: 300px;
+}
+.brick2{
+    padding: 10px 0;
+    margin: 10px auto;
+    background-color: beige;
+    height: 300px;
+}
+/*提交按钮*/
+#submit {
+    width: 240px;
+    height: 32px;
+    margin-left:400px;
+    margin-bottom: 200px;
+}
+.ant-btn-primary {
+    color: #fff;
+    background-color: #FF704F;
+    border-color: #FF704F;
+}
+.submit span {
+    letter-spacing: 1px;
+}
+.ant-btn {
+
+    font-size: 14px!important;
+    font-weight: 400!important;
+}
